@@ -1,0 +1,150 @@
+#container-account {
+    height: 552px;
+    position: relative;
+}
+
+#row {
+    height: 508px;
+    width: 960px;
+    position: absolute;
+    left: 295px;
+    bottom: 0px;
+}
+
+#login-account {
+    width: 450px;
+    height: 407px;
+    border: 1px solid rgb(202, 202, 202);
+    position: absolute;
+    left: 25px;
+    bottom: 50px;
+    color: gray;
+}
+
+#login {
+    position: absolute;
+    left: 300px;
+    top: 10px;
+}
+
+#login a {
+    text-decoration: none;
+    color: rgb(0, 108, 209);
+}
+
+#label-login::before {
+    content: url(img/to.PNG);
+}
+
+.text {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+#form-account {
+    margin: 10px;
+}
+
+#form-account span {
+    font-size: 150%;
+    color: red;
+}
+
+#title {
+    color: red;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 140%;
+}
+
+#login-checkbox {
+    height: 150px;
+    width: 95%;
+    position: absolute;
+    bottom: -30px;
+}
+
+#login-checkbox input {
+    margin-top: 30px;
+}
+
+#submitlogin {
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    padding: 7px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 120%;
+}
+
+#security {
+    height: 30px;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+#login-checkbox label {
+    position: absolute;
+    top: 30px;
+    padding-left: 5px;
+}
+
+#forget {
+    position: absolute;
+    right: 5px;
+    top: 100px;
+    text-decoration: none;
+    color: gray;
+}
+
+#miss {
+    color: black;
+}
+
+#if-dont-have-account {
+    position: absolute;
+    right: 70px;
+    top: 50px;
+}
+
+#if-dont-have-account a {
+    color: gray;
+    text-decoration: none;
+}
+
+.Checkpoint {
+    height: 30px;
+    width: 105px;
+    position: absolute;
+    left: 175px;
+    bottom: 170px;
+}
+
+.check {
+    display: none;
+}
+
+#changer {
+    position: absolute;
+    left: 285px;
+    bottom: 177px;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+#error1 {
+    position: absolute;
+    top: 70px;
+}
+
+#error2 {
+    position: absolute;
+    top: 155px;
+}

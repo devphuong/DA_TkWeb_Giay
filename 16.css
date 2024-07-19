@@ -1,0 +1,1321 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Web-DA {
+    height: 2000px;
+    position: relative;
+}
+
+.Header {
+    height: 150px;
+}
+
+.Menu {
+    height: 33px;
+    background-color: black;
+    position: relative;
+}
+
+.menu-position {
+    height: 40px;
+    position: absolute;
+    left: 275px;
+}
+
+.guide {
+    height: 670px;
+    position: relative;
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    font-size: 13px;
+    background-color: whitesmoke;
+}
+
+.Address-phone {
+    height: 100px;
+    position: absolute;
+    right: 280px;
+    top: 55px;
+}
+
+.Contact {
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    right: 200px;
+    top: 20px;
+}
+
+
+/* menu*/
+
+.Menu-ul {
+    list-style-type: none;
+    background: #000;
+}
+
+.menu-li {
+    display: inline-table;
+    padding-right: 18px;
+    position: relative;
+}
+
+.menu-a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 8px;
+}
+
+.menu-li>.Sub-menu {
+    display: none;
+    position: absolute;
+    width: 550px;
+    height: 500px;
+}
+
+.menu-li:hover .Sub-menu {
+    transition: 0.5s;
+    display: block;
+}
+
+.Left {
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin: 10px;
+}
+
+.Left li a {
+    padding-left: 5px;
+}
+
+.Sub-menu {
+    list-style-type: none;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.Sub-shirt li {
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.Sub-menu .Left li {
+    padding-bottom: 10px;
+}
+
+.Sub-menu .Right li {
+    padding-bottom: 10px;
+}
+
+.Sub-menu li strong {
+    font-size: 110%;
+}
+
+.Sub-information li {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.sub {
+    color: black;
+    text-decoration: none;
+}
+
+.Right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin: 5px;
+}
+
+.Right li a {
+    padding-left: 5px;
+}
+
+.menu-a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.Header img {
+    position: absolute;
+    left: 280px;
+}
+
+
+/* Thông tin*/
+
+.Address-phone img {
+    height: 40px;
+    position: absolute;
+    left: 0px;
+}
+
+.Address-phone h4 {
+    padding: 15px 50px;
+    font-size: 16px;
+}
+
+
+/*Liên hệ*/
+
+#Giohang {
+    position: absolute;
+    top: -10px;
+    width: 30px;
+}
+
+.Contact-a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: #333;
+}
+
+.menu-li>.Sub-shirt {
+    display: none;
+    position: absolute;
+}
+
+.menu-li>.Sub-information {
+    display: none;
+    position: absolute;
+}
+
+.menu-li:hover .Sub-shirt {
+    transition: 0.5s;
+    display: block;
+}
+
+.menu-li:hover .Sub-information {
+    transition: 0.5s;
+    display: block;
+}
+
+.Sub-information {
+    list-style: none;
+    border: 1px solid black;
+    width: 310px;
+    height: 250px;
+    background-color: white;
+    z-index: 1;
+}
+
+.Sub-shirt {
+    list-style: none;
+    border: 1px solid black;
+    width: 180px;
+    height: 100px;
+    background-color: white;
+    z-index: 1;
+}
+
+#search {
+    position: absolute;
+    top: 70px;
+    left: 540px;
+    padding: 7px;
+    border: 1px solid gray;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 200px;
+}
+
+#submit {
+    position: absolute;
+    top: 70px;
+    left: 738px;
+    padding: 7px;
+    background-image: url(img/seach.png);
+    background-size: cover;
+    border: 1px solid rgb(71, 157, 255);
+    width: 35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.guide img {
+    width: 950px;
+    position: absolute;
+    left: 280px;
+    top: 15px;
+}
+
+
+/*Sản phẩm*/
+
+.Content {
+    height: 1400px;
+    position: relative;
+}
+
+.Project {
+    height: 1310px;
+    width: 950px;
+    position: absolute;
+    left: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 220px;
+    height: 300px;
+    position: relative;
+}
+
+.img img {
+    width: 95%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.info {
+    padding-left: 7px;
+}
+
+.Price {
+    color: rgb(216, 0, 0);
+}
+
+.info span {
+    font-size: 15px;
+}
+
+#Seen {
+    padding: 12px 30px;
+    background-color: rgb(210, 20, 0);
+    position: absolute;
+    left: 670px;
+    bottom: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#Seen:hover {
+    text-decoration: underline;
+}
+
+.item:hover {
+    background-color: rgb(231, 53, 53);
+    transition: 0.5s;
+}
+
+.info a {
+    text-decoration: none;
+    color: #333;
+}
+
+.item:hover .info a {
+    color: white;
+}
+
+.item:hover .info .Price {
+    color: white;
+}
+
+.guide h2 {
+    position: absolute;
+    left: 280px;
+    bottom: 25px;
+}
+
+.guide p {
+    position: absolute;
+    left: 280px;
+    bottom: 0px;
+}
+
+
+/* tin tức*/
+
+.News-page {
+    height: 384px;
+    position: relative;
+    margin-top: 357px;
+    font-size: 12px;
+}
+
+.News {
+    height: 100%;
+    width: 950px;
+    position: absolute;
+    left: 20%;
+}
+
+.news-header {
+    height: 20px;
+    padding-bottom: 20px;
+}
+
+.news-content {
+    height: 88%;
+    position: absolute;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#all {
+    padding: 5px 10px;
+    background-color: rgb(190, 37, 37);
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+
+#all:hover {
+    text-decoration: underline;
+}
+
+#B {
+    background-color: black;
+    color: white;
+}
+
+.left-content {
+    width: 30%;
+    height: 95%;
+    float: left;
+}
+
+.mid-content {
+    width: 30%;
+    height: 95%;
+    float: left;
+}
+
+.right-content {
+    width: 38%;
+    height: 95%;
+    float: left;
+}
+
+.content-1 {
+    height: 30%;
+}
+
+.content-2 {
+    height: 30%;
+}
+
+.content-3 {
+    height: 30%;
+}
+
+.news-header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 6px;
+}
+
+.text-cr {
+    width: 65%;
+    float: left;
+    padding-left: 10px;
+}
+
+.item-cr img {
+    float: left;
+    width: 30%;
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+.item-c img {
+    width: 100%;
+    height: 200px;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+}
+
+.news-header a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.news-content strong {
+    color: black;
+}
+
+.item-c a {
+    text-decoration: none;
+}
+
+.strong {
+    text-decoration: none;
+}
+
+
+/*foot*/
+
+.webfoot {
+    height: 600px;
+    font-family: sans-serif;
+}
+
+.footder {
+    height: 100%;
+    background-color: #222222;
+    color: rgb(172, 172, 172);
+}
+
+.center {
+    width: 950px;
+    height: 555px;
+    position: absolute;
+    left: 20%;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 240px;
+    font-size: 13px;
+}
+
+.bot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 283px;
+    font-size: 15px;
+}
+
+.history {
+    width: 40%;
+    height: 100%;
+}
+
+.info-center {
+    width: 25%;
+    height: 100%;
+}
+
+.email {
+    width: 28%;
+    height: 100%;
+}
+
+.shop-info {
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+.shop-info span {
+    color: white;
+}
+
+.Bank-1 {
+    width: 25%;
+    height: 100%;
+}
+
+.Bank-2 {
+    width: 28%;
+    height: 100%;
+}
+
+.shop-info img {
+    width: 30px;
+    padding-left: 5px;
+}
+
+#zalo {
+    position: absolute;
+    left: 45px;
+    top: 120px;
+}
+
+.shop-info p {
+    margin: 10px;
+}
+
+.info-center p {
+    margin: 10px;
+}
+
+.Bank-1 p {
+    margin: 10px;
+    color: gray;
+}
+
+.Bank-2 p {
+    margin: 10px;
+    color: gray;
+}
+
+.shop-info span {
+    background-color: rgb(190, 37, 37);
+}
+
+.Bank-1 span {
+    background-color: rgb(190, 37, 37);
+    color: white;
+}
+
+.Bank-2 span {
+    background-color: rgb(190, 37, 37);
+    color: white;
+}
+
+.fb {
+    height: 60px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+
+.fb img {
+    width: 70px;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 2px;
+}
+
+.fb input {
+    position: absolute;
+    bottom: 2px;
+    left: 80px;
+}
+
+.fb label {
+    font-size: small;
+    position: absolute;
+    left: 165px;
+    bottom: 2px;
+}
+
+.fb a {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    font-size: 18px;
+    color: rgb(0, 85, 255);
+    text-decoration: none;
+}
+
+.history p {
+    color: gray;
+}
+
+.info-center p a {
+    color: gray;
+    text-decoration: none;
+}
+
+.top h3 {
+    color: thistle;
+    padding: 10px 0;
+}
+
+.bot h4 {
+    color: thistle;
+    padding-bottom: 10px;
+}
+
+.email p {
+    color: gray;
+    padding: 10px 0;
+}
+
+.email img {
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.center a:hover {
+    text-decoration: underline;
+}
+
+.email input {
+    padding: 5px;
+}
+
+#email-search {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#email-submit {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#account {
+    width: 4%;
+    position: absolute;
+    top: 3px;
+    left: 175px;
+}
+
+.Contact a:hover {
+    color: rgb(5, 255, 255);
+}
+
+#Contact-account {
+    border: 1px solid rgb(202, 202, 202);
+    width: 218px;
+    height: 171px;
+    z-index: 1;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    background-color: whitesmoke;
+    display: none;
+}
+
+#Contact-account-child {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 178px;
+    height: 72px;
+}
+
+#contact-dk {
+    width: 218px;
+    height: 46px;
+    position: absolute;
+    bottom: 0px;
+    padding-top: 15px;
+    background-color: rgb(231, 53, 53);
+}
+
+#order {
+    position: absolute;
+    top: 5px;
+    color: gray;
+    padding-right: 132px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+#order:hover {
+    background-color: rgb(231, 53, 53);
+    color: white;
+}
+
+#button-left {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    height: 40%;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+#button-right {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 40%;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 2px;
+    background-color: red;
+    color: white;
+}
+
+.dk {
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#Contact-b {
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    background: whitesmoke;
+}
+
+#Contact-giohang {
+    width: 364px;
+    height: 77px;
+    background: whitesmoke;
+    position: relative;
+    top: 10px;
+    left: -40px;
+    z-index: 1;
+    border: 1px solid rgb(202, 202, 202);
+    display: none;
+}
+
+#Contact-giohang p {
+    position: absolute;
+    top: 30px;
+    left: 140px;
+}
+
+#Map-inbox {
+    width: 113px;
+    height: 81px;
+    position: fixed;
+    right: 0px;
+    top: 70%;
+    background-color: whitesmoke;
+    border: 1px solid rgb(202, 202, 202);
+    z-index: 1;
+}
+
+#Map-inbox img {
+    width: 20px;
+}
+
+#Map-inbox a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 90%;
+    color: black;
+}
+
+#Map-inbox p {
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+#like-fb {
+    width: 75px;
+    height: 53px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(202, 202, 202);
+    position: fixed;
+    top: 335px;
+    z-index: 1;
+}
+
+#like-fb span {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    border: 1px solid rgb(148, 148, 148);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    font-size: 90%;
+}
+
+#like-fb img {
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    border-bottom-right-radius: 3px;
+}
+
+@media only screen and (max-width: 500px) {
+    .Max-Content {
+        width: 100%;
+    }
+}
+
+.deal {
+    position: absolute;
+    right: 0px;
+    top: -25px;
+}
+
+.deal span {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+}
+
+.deal p {
+    color: white;
+}
+
+.hover-li:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+/*
+======================================== PHẦN LÀM NỘI DUNG GIÀY ========================================
+*/
+
+div#layout {
+    border: 1px solid rgb(202, 202, 202);
+    margin: 1px auto;
+    width: 959px;
+    position: absolute;
+    height: 462px;
+    top: 196px;
+    left: 279px;
+    
+}
+
+div#gNav {
+    clear: both;
+}
+
+div#gNav ul {
+    border: 1px solid rgb(202, 202, 202);
+    height: 40px;
+    padding: 12px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+}
+
+ul {
+    list-style: none;
+}
+
+div#gNav ul li {
+    border-right: 1px solid black;
+    display: inline;
+    padding: 0 10px;
+}
+
+div#gNav ul li.last {
+    border-right: none;
+    padding-right: 0;
+}
+
+div#gNav ul li a:hover {
+    color: red;
+}
+
+div.newProduct {
+    margin-bottom: 400px;
+}
+
+div.newProduct p.image {
+    float: left;
+    width: 190px;
+    position: absolute;
+    top: 70px;
+}
+
+div.newProduct div {
+    position: absolute;
+    left: 450px;
+    top: 60px;
+    width: 350px;
+}
+
+div.newProduct div h3 {
+    color: #5870e6;
+    margin-bottom: 10px;
+}
+
+top {
+    position: absolute;
+    top: 300px;
+}
+
+dl.news {
+    padding: 18px 26px 21px 0px;
+    width: 889px;
+    position: absolute;
+    top: 380px;
+}
+
+dl.news {
+    border-bottom: 2px dotted #000;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+}
+
+div.text {
+    padding: 1px 1px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*div#sidebar {
+    float: right;
+    width: 240px;
+}
+div#sidebar h2 {
+    border-bottom: 1px solid #666666;
+    font-size: 120%;
+    margin-bottom: 10px;
+}*/
+
+.itemGiay {
+    width: 220px;
+    height: 300px;
+}
+
+.img img {
+    width: 265px;
+    position: absolute;
+    right: 923px;
+    bottom: -176px;
+}
+
+.discount img {
+    width: 70px;
+    position: absolute;
+    right: 970px;
+    top: -55px;
+    left: -900px;
+}
+
+.discount p {
+    position: absolute;
+    top: -40px;
+    left: -882px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    white-space: normal;
+}
+
+.color {
+    color: red;
+}
+
+.Price {
+    color: rgb(216, 0, 0);
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #CC0000;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: -1px;
+    padding: 12px;
+    bottom: -44px;
+    width: 196px;
+    height: 53px;
+}
+.btn-success:hover{
+    background-color: rgb(221, 80, 80);
+}
+.btn-success1 {
+    color: #fff;
+    background-color: #4c75fa;
+  
+    border: none;
+    position: absolute;
+    left: 0px;
+    padding: 2px 2px 2px 16px;
+    bottom: -70px;
+}
+
+.btn-success2 {
+    color: #fff;
+    background-color: #4c75fa;
+  
+   border: none;
+    position: absolute;
+    left: 55px;
+    padding: 2px;
+    bottom: -70px;
+}
+
+.font-weight-bold {
+    font-weight: 700
+}
+
+.h5,
+h5 {
+    font-size: 1.25rem;
+}
+
+.h51,
+h5 {
+    font-size: 11.25px;
+}
+
+.h52,
+h5 {
+    font-size: 11.25px;
+}
+
+.btn-success1 img {
+    position: absolute;
+    top: 2.5px;
+    width: 14px;
+    right: 35px;
+}
+
+ul.thumbList {
+    background: #f9f8f8;
+    border: 1px solid #ebeaea;
+    padding: 10px;
+    clear: both;
+    position: absolute;
+    top: 294px;
+    left: 167px;
+}
+
+ul.thumbList li {
+    display: inline;
+    padding-right: 8px 8px;
+}
+
+ul.thumbList1 {
+    background: #f9f8f8;
+    border: 1px solid #ebeaea;
+    clear: both;
+    position: absolute;
+    top: 320px;
+    left: 67px;
+    width: 99px;
+    height: 23px;
+    padding: 2px 2px 2px 20px;
+}
+
+ul.thumbList1 li {
+    display: inline;
+    padding-right: 8px;
+}
+
+.thumbList1 img {
+    position: absolute;
+    top: 3.5px;
+    width: 14px;
+    right: 79px;
+}
+
+ul.thumbList2 {
+    background: #f9f8f8;
+    border: 1px solid #ebeaea;
+    clear: both;
+    position: absolute;
+    top: 320px;
+    left: 170px;
+    width: 153px;
+    height: 22px;
+    padding: 2px 2px 2px 20px;
+}
+
+ul.thumbList12 li {
+    display: inline;
+    padding-right: 8px;
+}
+
+.thumbList2 img {
+    position: absolute;
+    top: 3.5px;
+    width: 14px;
+    right: 134px;
+}
+
+.select{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    border-radius: 5px;
+}
+
+.input{
+    padding: 2px 4px 2px 4px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+/*
+======================================== PHẦN LÀM Content GIÀY ========================================
+*/
+
+.information {
+    width: 960px;
+    height: 265px;
+    background-color: blanchedalmond;
+    position: absolute;
+    left: 279px;
+    top: 703px;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+.location {
+    
+    height: 476px;
+    font-family: sans-serif;
+}
+
+
+/*
+======================================== PHẦN LÀM NỘI DUNG SLIDESHOW ========================================
+*/
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 425px;
+    position: absolute;
+    top: 280px;
+    left: 289px;
+    margin-left: -200px;
+    margin: auto;
+    width: 100%;
+    height: 214px;
+}
+
+.slideshow-container img {
+    position: absolute;
+    left: 115px;
+    width: 50%;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    width: auto;
+    padding: 10px;
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.textslideshow {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    left: 15px;
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot_move {
+    position: absolute;
+    left: 482px;
+    top: 577px;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.mySlides fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    z-index: 1;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .textslideshow {
+        font-size: 11px
+    }
+}
+
+#like-fb iframe {
+    float: right;
+}
